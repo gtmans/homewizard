@@ -11,4 +11,6 @@ Ik heb nog plannen voor een watermelder en een schakeling op basis van luchttemp
 In de socket moet je eerst de api aanzetten. Daarna kun je op basis van apparaat id het IP adres achterhalen. Om het helemaal goed te doen zou je het IP ook nog vast moeten zetten in je router. 
 Met je wifi ssid en passwd en IP maak je contact met de socket. Je kunt hem uitlezen en ook aanpassen. 
 
+![schema](https://github.com/gtmans/homewizard/blob/main/api-SWITCH-DUAL_bb.png)
+
 Arduino IDE code voor D1 mini en M5Stick beschikbaar in deze directory
