@@ -1,5 +1,6 @@
 Auto Socket Switch for Homewizard Energy sockets
 
+[!autoswitch](https://github.com/gtmans/homewizard/blob/main/autosocketswitch/M5-socketswitch-small.png)
 Automatic socket switch and display based on M5 matrix and Arduino IDE. This switch turns off a specific socket depending on the total consumption of 4 Homewizard Energy sockets at a certain total value, and turns it back on when possible.
 
 Story.
