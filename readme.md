@@ -1,5 +1,5 @@
 New! Socketswitch
-![Socketswitch](https://github.com/gtmans/homewizard/blob/main/M5-socketswitch-small.png)
+![Socketswitch](https://github.com/gtmans/homewizard/blob/main/autosocketswitch/M5MatrixAutoSocketSwitch.png)
 https://github.com/gtmans/homewizard/blob/main/M5MatrixAutoSocketSwitch-git.ino
 
 Ik ben wat aan het spelen met de api van de Homewizard Energy Sockets en zie hier een draadloze remote voor 1 socket en eentje voor 2 sockets. 
