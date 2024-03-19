@@ -1,6 +1,6 @@
 <H1>Home automation with Homewizard Energy sockets API</H1>
 
-You'll need to delve into it a bit, but the API is well-documented, and with some help from ChatGPT and either a D1 mini or an M5Stick or M5 Atom, you can get it up and running quite quickly using Areduino IDE.
+You'll need to delve into it a bit, but the API is well-documented, and with some help from ChatGPT and either a D1 mini or an M5Stick or M5 Atom, you can get it up and running quite quickly using Arduino IDE.
 
 In the energy socket (app), you first need to enable the API. After that, you can retrieve the IP address based on the device ID. 
 To do it all properly, you should also assign a fixed IP in your router.
