@@ -1,5 +1,9 @@
-New! Socketswitch
-![Socketswitch](https://github.com/gtmans/homewizard/blob/main/autosocketswitch/M5MatrixAutoSocketSwitch.png)
+<H2>New! Socketswitch</H2><BR>
+Automatic socket switch and display based on M5 matrix and Arduino IDE. This switch turns off a specific socket depending on the total consumption of 4 Homewizard Energy sockets at a certain total value, and turns it back on when possible.<BR><BR>
+<img align="left" src="https://github.com/gtmans/homewizard/blob/main/autosocketswitch/M5MatrixAutoSocketSwitch.png" width="400" />
+<img align="right" src="https://github.com/gtmans/homewizard/blob/5aa19e3188834bed4d858cb3665c40a731ccc3a5/autosocketswitch/M5MatrixAutoSocketSwitch2.png" width="400" />
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+
 https://github.com/gtmans/homewizard/blob/main/M5MatrixAutoSocketSwitch-git.ino
 
 Ik ben wat aan het spelen met de api van de Homewizard Energy Sockets en zie hier een draadloze remote voor 1 socket en eentje voor 2 sockets. 
