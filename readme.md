@@ -1,4 +1,4 @@
-<H1>Home automation 2nd level with Homewizard Energy sockets api</H1>
+<H1>Home automation with Homewizard Energy sockets API</H1>
 
 You'll need to delve into it a bit, but the API is well-documented, and with some help from ChatGPT and either a D1 mini or an M5Stick or M5 Atom, you can get it up and running quite quickly using Areduino IDE.
 
