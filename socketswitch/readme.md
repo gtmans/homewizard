@@ -18,5 +18,9 @@ In the energy socket (app), you first need to enable the API. After that, you ca
 
 <img src="https://github.com/gtmans/homewizard/blob/main/socketswitch/M5Stick-ApiSwitchMulti.png" width="300" />
 
+<H3>simple IR remote for multi sockets</H3> 
+
+<img src="https://github.com/gtmans/homewizard/blob/main/socketswitch/M5-ATOM-IR-remote.jpg" width="300" />
+
 Arduino IDE code for D1 mini and M5Stick available in this directory
 
