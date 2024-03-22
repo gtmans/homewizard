@@ -20,13 +20,17 @@ https://github.com/gtmans/homewizard/blob/main/M5MatrixAutoSocketSwitch-git.ino
 <H2>Socketswitch/remote</H2>
 
 
-<H3>draadloze remote voor 1 socket</H3> 
+<H3>wireless remote for 1 socket</H3> 
 
 <img src="https://github.com/gtmans/homewizard/blob/main/socketswitch/api-switch-single-small.png" width="300" />
 
-<H3>draadloze remote voor 2 sockets</H3> 
+<H3>wireless remote for 2 sockets</H3> 
 
 <img src="https://github.com/gtmans/homewizard/blob/main/socketswitch/api-switch-dual-small.png" width="300" />
+
+<H3>wireless remote for multi sockets</H3> 
+
+<img src="https://github.com/gtmans/homewizard/blob/main/socketswitch/M5Stick-ApiSwitchMulti.png" width="300" />
 
 https://github.com/gtmans/homewizard/tree/main/socketswitch
 
