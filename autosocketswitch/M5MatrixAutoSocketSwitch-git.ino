@@ -1,6 +1,6 @@
-/* public private M5MatrixAutoSocketSwitchv9.6 
+/* public https://github.com/gtmans/homewizard/blob/main/autosocketswitch/M5MatrixAutoSocketSwitch-git.ino private version M5MatrixAutoSocketSwitchv9.6 
  *  
- * (c) Mans Rademaker maart 2024
+ * (c) Mans Rademaker march 2024
  * 
  * measures 4 sockets, displays their consuption on a 5x5 matrix (M5Atom) and total
  * when total > 3600 it switches off 1 specific socket
