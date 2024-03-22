@@ -14,7 +14,7 @@ Automatic socket switch and display based on M5 matrix and Arduino IDE. This swi
 
 
 https://github.com/gtmans/homewizard/tree/main/autosocketswitch<BR>
-https://github.com/gtmans/homewizard/blob/main/M5MatrixAutoSocketSwitch-git.ino
+https://github.com/gtmans/homewizard/blob/main/socketswitch/M5Stick-ApiSwitchMulti-github.ino
 <BR><BR>
 
 <H2>Socketswitch/remote</H2>
