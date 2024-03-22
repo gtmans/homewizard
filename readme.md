@@ -33,7 +33,7 @@ https://github.com/gtmans/homewizard/blob/main/M5MatrixAutoSocketSwitch-git.ino
 <img src="https://github.com/gtmans/homewizard/blob/main/socketswitch/M5Stick-ApiSwitchMulti.png" width="300" />
 
 
-<H3>siple IR remote for multi sockets</H3> 
+<H3>simple IR remote for multi sockets</H3> 
 
 <img src="https://github.com/gtmans/homewizard/blob/main/socketswitch/M5-ATOM-IR-remote.jpg" width="300" />
 
