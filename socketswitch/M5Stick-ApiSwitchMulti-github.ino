@@ -8,6 +8,7 @@
  * - benodigde bibliotheken (zie code)
  * 
  * You can turn wake up on motion (WOM) on and that works but battery dies within a day or two
+ * use side button to change device and top button to turn on or off
  */
 #include <M5StickCPlus.h>
 #include <WiFi.h>
