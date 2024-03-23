@@ -3,11 +3,18 @@
  *  
  *  2DO
  *  - use button 4 something
+ *  - some button show status of all sockets with blinking led
  *  
  *  based on: 
  *  - SimpleReceiver.cpp                                        (https://github.com/Arduino-IRremote/Arduino-IRremote)
  *  - M5-Atom-light + M5 IR-remote module + cheap IR-pad like   (https://www.tinytronics.nl/nl/communicatie-en-signalen/draadloos/infrarood/ir-sensor-module-met-afstandsbediening-en-batterij)
  *
+ * press 1,2 or 3 to turn socket 1,2, or 3 on
+ * press 4,5 or 6 to turn socket 1,2, or 3 off
+ * press 0        to turn all sockets off
+ * press vol- or vol+ to change volume on your Sony TV
+ * 
+ * use simplereceiver to discover IR codes to use                (https://github.com/Arduino-IRremote/Arduino-IRremote/blob/master/examples/SimpleReceiver/SimpleReceiver.ino)
  */
 #include  <Arduino.h>
 #include  <IRremote.hpp>          // include the library
@@ -45,17 +52,21 @@ int green       =     0x00ff00;
 int blue        =     0x0000ff;
 
 //sockets
-String ipBase       = "192.168.1.";      //your socket IP base (FF.FF.FF.00)
-String ipnames  [3] = {"droger","kachel1","kachel2"};
-String ipSup    [3] = {"23"    ,"21"     ,"22"   };
-String PowerON =     "{\"power_on\": true}";
-String PowerOFF =    "{\"power_on\": false}";
+#define nrdev    3
+String ipBase         = "192.168.1.";      //your socket IP base (FF.FF.FF.00)
+String ipnames[nrdev] = {"droger","kachel1","kachel2"};
+String ipSup  [nrdev] = {"23"   ,"21"     ,"22"   };
+String PowerON        = "{\"power_on\": true}";
+String PowerOFF       = "{\"power_on\": false}";
 String putData;
 String ipDevice;
 
 //wifi
-const char* ssid = "mySSID";
-const char* password = "myPASS";
+#include "my_secrets.h"
+/* myn_secrets.h:  wifi passwords and IP adresses or fill in below values
+const char* ssid    = "mySSID";        
+const char* password= "myWIFIpassword";*/
+
 #include              <Arduino.h>
 #include              <WiFi.h>
 #include              <WiFiMulti.h>
@@ -92,6 +103,13 @@ void loop() {
       case VOP:
         Serial.println      ("VOL+  ontvangen!");   // use your own codes fot TV VOL+
         IrSender.sendSony   (0x1, 0x12, 2, 12);
+        break;
+      case ZERO:
+        Serial.println      ("knop0 ontvangen!");
+        for (int d=0;d<nrdev;d++){
+        Serial.print        ("turning "+ipnames[d]+" OFF");
+        PutSocketStat       (d,false);
+        }
         break;
       case ONE:
         Serial.println      ("knop1 ontvangen!");
