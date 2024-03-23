@@ -1,4 +1,4 @@
-/*  
+/* https://github.com/gtmans/homewizard/blob/main/socketswitch/M5Stick-ApiSwitchMulti-github.ino
  * Aansturen Homewizard Energy Sockets dmv. api 
  * Mans Rademaker 2024 ism. ChatGPT voor M5StickCPlus
  * 
