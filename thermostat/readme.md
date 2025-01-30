@@ -7,6 +7,7 @@ I have connected an electric heater to a HomeWizard Socket because the built-in 
 I used a "Tripler Lolin Board" with a D1 Mini, an SHT30 shield V1.2.0 (standard pins D1 and D2), and a rotary switch (D5, D6, D7). To connect the OLED display and rotary switch, I made a custom board to easily combine the components, but you can also solder everything onto a single perforated board or use a breadboard. It might be useful to place the temperature sensor at a distance and use longer wires. This can also be done using the mini I2C connector on the D1 and the SHT30.
 
 <img src="https://github.com/gtmans/homewizard/blob/main/thermostat/Thermo-Fritz.png" />
+<img src="https://github.com/gtmans/homewizard/blob/main/thermostat/Thermo-breadboard.png" />
 
 Description : Wireless Thermostat using Homewizard api to control a specific socket used by some heating appliance.<BR>
 parts    : D1-mini, SHT30 sensor, rotary switch, oled SSD1306 display<BR>
