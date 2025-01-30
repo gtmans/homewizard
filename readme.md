@@ -40,6 +40,13 @@ https://github.com/gtmans/homewizard/blob/main/socketswitch/M5Stick-ApiSwitchMul
 https://github.com/gtmans/homewizard/tree/main/socketswitch
 
 
+<H3>Homewizard Socket thermostat</H3>
+
+<img src="https://github.com/gtmans/homewizard/blob/main/thermostat/Sochet-thermostat-smaller.png" align=left width="300" />
+https://github.com/gtmans/homewizard/blob/main/readme.md
+
+<H3>Homewizard MyDisplay</H3>
+
 <H3>work in progress</H3>
 Socketlogger based on D1 mini or M5Stack logs every hour the powerconsumption of 1 or more sockets into a .csv file on SD
 <BR><BR>
