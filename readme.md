@@ -45,7 +45,12 @@ https://github.com/gtmans/homewizard/tree/main/socketswitch
 <img src="https://github.com/gtmans/homewizard/blob/main/thermostat/Sochet-thermostat-smaller.png" align=left width="300" />
 https://github.com/gtmans/homewizard/blob/main/readme.md
 
+<BR><BR><BR><BR><BR><BR><BR><BR><BR>
 <H3>Homewizard MyDisplay</H3>
+<img src="https://github.com/gtmans/homewizard/blob/main/MyDisplay/MyDisplay3.png" align=left width="300" />
+<img src="https://github.com/gtmans/homewizard/blob/main/MyDisplay/MyDisplay4.png" align=right width="300" />
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
 
 <H3>work in progress</H3>
 Socketlogger based on D1 mini or M5Stack logs every hour the powerconsumption of 1 or more sockets into a .csv file on SD
