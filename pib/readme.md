@@ -1,1 +1,14 @@
+<H1>Home automation with Homewizard PIB</H1>
+
+<img src="https://github.com/gtmans/homewizard/blob/main/pib/screen.png" width="300" align="left" />
+
+Beetje spelen met de apiv2 van de Homewizard batterij.<BR>
+- Vullingsgraad en stroom in en uit
+- Huidig vermogen, vulling en tijd tot vol/leeg
+- Zon in, Batterij in/uit en Net in/uit<BR>
+- Overall in/uit, efficiency
+<BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<img src="https://github.com/gtmans/homewizard/blob/main/pib/screen1.png" width="200" align="left" />
+<img src="https://github.com/gtmans/homewizard/blob/main/pib/screen2.png" width="200" align="left" />
+<img src="https://github.com/gtmans/homewizard/blob/main/pib/screen3.png" width="200" align="left" />
 
