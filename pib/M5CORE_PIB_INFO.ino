@@ -1,5 +1,24 @@
 //M5CORE_PIB_INFO Homewizard PIB gtmans sept 2025
+/*
+Hardware: M5 Core
+Software: Arduino IDE
 
+Achterhalen Homewizard token:
+- Achterhaal het IP-adres van je PIB. Ik kon het nergens in de app vinden en heb op mijn iPhone 
+  de app "Discovery DNS SD Browser gebruikt" en gekeken onder _homewizard._tcp
+- Zet het adres bij voorkeur vast in je router
+- Op een Windows PC kun je Windows toets + R gebruiken en cmd + enter drukken
+- type daar: curl https://<IP-adres>/api/user --insecure -X POST -d "{\"name\": \"local/esp32\"}"
+- Je krijgt eerst de error "user:creation-not-enabled". 
+- Druk nu één keer op de knop van het HomeWizard apparaat
+- voer binnen 30 seconden de opdracht opnieuw uit (cursor up + enter)
+- Je ontvangt nu een JSON-response met een "token": "EXAMPLE-TOKEN".
+- Noteer (kopieer en plak) deze token, die heb je nodig voor elke API-aanroep.
+
+Voor het achterhalen van zonne energie gegevens Sun_today en Sun_now gebruik ik een eigen HTTPS-server 
+die max 288 keer per dag de gegevens bij Solaredge ophaalt, maar je kunt ook wat gegevens uit je P1-meter halen
+
+*/
 #include    <M5Stack.h>
 #include    <WiFi.h>
 #include    "gewoon_secrets.h"
