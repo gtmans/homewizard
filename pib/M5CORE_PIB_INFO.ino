@@ -1,4 +1,4 @@
-//Homewizard PIB gtmans sept 2025
+//M5CORE_PIB_INFO Homewizard PIB gtmans sept 2025
 
 #include    <M5Stack.h>
 #include    <WiFi.h>
