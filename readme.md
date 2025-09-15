@@ -8,6 +8,11 @@ With your WiFi SSID, password, and IP, you can connect to the socket. You can re
 In this repository you can find sketches for some remotes for socketcontrol, an automatic socket switcer and I a working on plans for a water sensor/switch and a socket datalogger.
 All are free to use for your own projects. The API is described here: https://api-documentation.homewizard.com/docs/introduction/
 
+<H2>Plugin Battery PIB</H2>>
+<img src="https://github.com/gtmans/homewizard/blob/main/pib/screen.png" width="300" align="left" />
+https://github.com/gtmans/homewizard/tree/main/pib
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+
 <H2>Auto Socketswitch</H2>
 Automatic socket switch and display based on M5 matrix and Arduino IDE. This switch turns off a specific socket depending on the total consumption of 4 Homewizard Energy sockets at a certain total value, and turns it back on when possible.<BR><BR>
 <img src="https://github.com/gtmans/homewizard/blob/main/autosocketswitch/M5MatrixAutoSocketSwitch.png" width="300" align="left" /><BR><BR><BR><BR><BR><BR>
@@ -16,6 +21,8 @@ Automatic socket switch and display based on M5 matrix and Arduino IDE. This swi
 https://github.com/gtmans/homewizard/tree/main/autosocketswitch<BR>
 https://github.com/gtmans/homewizard/blob/main/socketswitch/M5Stick-ApiSwitchMulti-github.ino
 <BR><BR>
+
+
 
 <H2>Socketswitch/remote</H2>
 
