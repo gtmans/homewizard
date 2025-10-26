@@ -1,5 +1,5 @@
 /* encoder source: https://arduinogetstarted.com/tutorials/arduino-rotary-encoder 
- * program  : Mans Rademaker 2025
+ * program  : gtmans 2025
  * purpose  : Wireless Thermostat using Homewizard api to control a specific socket used by some heating appliance
  * parts    : D1-mini, SHT30 sensor shield or external via i2c connector (like M5-ENVIII), rotary switch, oled SSD1306 display
  * 
@@ -478,3 +478,4 @@ void chk_input(){               // read rotary
     do_display();
   }
 }
+
